@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+.container1 {
+  max-width: 73.5rem;
+  /* padding-left: 1.5rem;
+  padding-right: 1.5rem; */
+  margin: 0 auto;
+}
+
+.clr-primary {
+  color: #00c1cf;
+}
+.clr-secondary {
+  color: #534c5c;
+}
+.clr-primary-overlay {
+  color: rgba(0, 193, 207, 0.75);
+}
+.clr-black-overlay {
+  color: rgba(0, 0, 0, 0.65);
+}
