@@ -5,7 +5,7 @@ export default function OurServices() {
         <div  className="container-4 max-w-full text-center py-28 bg-black min-h-40r">
         <h4 className="text-center clr-primary font-black">WHAT WE DO</h4>
         <h2 className="text-center text-5xl opacity-80 text-white font-light">Our Services</h2>
-        <p className="text-center text-white ">
+        <p className="text-center text-white max-w-25r my-12 mx-auto leading-6 font-light">
           Vestibulum commodo at dolor eu aliquam. In congue ornare augue eu
           scelerisque. Duis vestibulum, dolor sed facilisis laoreet.
         </p>
