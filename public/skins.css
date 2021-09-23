@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
 * {
   box-sizing: border-box;
+  font-family: "Fira Sans";
 }
 .container1 {
   max-width: 73.5rem;
@@ -19,4 +21,79 @@
 }
 .clr-black-overlay {
   color: rgba(0, 0, 0, 0.65);
+}
+.bg-primary {
+  background-color: #00c1cf;
+}
+.bg-primary-overlay {
+  background-color: rgba(0, 193, 207, 0.75);
+}
+.border-primary {
+  border-color: #00c1cf;
+}
+.nav-bar {
+  width: 40rem;
+}
+.nav-bar-link:hover a {
+  color: black;
+}
+.z-500 {
+  z-index: 500;
+}
+.header-contact {
+  width: 35rem;
+}
+.header-login {
+  width: 18rem;
+}
+.dropdown-service-list-item:hover .dropdown-services-content {
+  display: block;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.dropdown-sectors-list-item:hover .dropdown-sectors-content {
+  display: block;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.services-links:hover .navigation-link-content,
+.sectors-link:hover .navigation-link-content {
+  border-bottom: 1px solid black;
+}
+.bar {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.section-hero {
+  min-height: 45.7em;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../src/images/blog_15-770x545.jpg");
+}
+.sec-btn {
+  border-radius: 30px;
+}
+.about-img {
+  width: 90%;
+  border-radius: 2rem;
+}
+.border-rad20 {
+  border-radius: 20px;
+}
+.border-rad30 {
+  border-radius: 30px;
+}
+.pricing-cards {
+  width: 30ch;
+}
+.min-h-40r {
+  min-height: 40rem;
+}
+.max-w-25r {
+  max-width: 25rem;
 }
